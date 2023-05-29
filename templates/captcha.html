@@ -54,7 +54,7 @@
     </div>
     <form id="captcha-form" method="POST" action="{{ url_for('captcha') }}">
       <div id="captcha-box">
-        <input id="captcha-input" type="text" placeholder="여기에 코드를 입력하세요" name="code" required>
+        <input id="captcha-input" type="text" placeholder="위 코드를 입력하세요." name="code" required>
         <input type="hidden" name="web" value="{{ request.args.get('web') }}">
         <br>
         <button id="captcha-submit" type="submit">Submit</button>
